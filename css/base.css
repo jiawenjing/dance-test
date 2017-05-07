@@ -1,0 +1,17 @@
+*{ padding:0; margin:0;}
+html,body{width:100%;overflow-x: hidden;background:#fafafa;}
+body{font-family:'微软雅黑';padding-top:3.25rem;}
+a{
+	color:#000; 
+	text-decoration:none;
+	/*-webkit-tap-highlight-color: transparent;
+  	-webkit-touch-callout: none;
+  	-webkit-user-select: none;*/
+}
+b,strong{ font-weight:normal;}
+i,em{ font-style:normal;vertical-align:top;}
+li{list-style: none;}
+.fl{ float: left;}
+.fr{ float: right;}
+.clearfix:after{ clear:both; display:block; content:"";}
+.clearfix{ zoom:1;}

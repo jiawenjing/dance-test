@@ -1,0 +1,111 @@
+.navBox{
+	width:100%;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index:1000;
+}
+.navTitle{
+	height:3.25rem;
+	position: relative;
+	z-index:99;
+	background:#fff;
+}
+.navTitle .navLeft{
+	width:3.25rem;
+	height:3.25rem;
+	float: left;
+	background:url(../img/icon1-1.png) no-repeat center;
+	background-size:1.325rem 1.1rem;
+}
+.navTitle .navRight{
+	width:3.25rem;
+	height:3.25rem;
+	float: right;
+	background:url(../img/logo1.png) no-repeat center;
+	background-size:1.6rem 2.2rem;
+}
+.navList_Box{
+	width:10.5rem;
+	top:0rem;
+    bottom: 0;
+    position: absolute;
+    z-index:100;
+    background:#fff;
+    overflow:hidden;
+     /*overflow:scroll;*/
+    box-shadow:-5px 5px 50px #000;
+	-webkit-box-shadow:-5px 5px 50px #000;
+	transition:0.6s all 0.1s ease;
+	-webkit-transition:0.6s all 0.1s ease;
+	transform:translate3d(-12rem,0rem,0rem);
+	-webkit-transform:translate3d(-12rem,0rem,0rem);
+}
+.one_level{
+	padding-left:1.4rem;
+	
+}
+
+.navList_Box .navList li{
+	border-bottom:1px solid #f2f2f2;
+}
+.navList_Box .navList li.noBorder{
+	border-bottom:0px solid #f2f2f2;
+}
+
+.navList_Box .navList li a{
+	font-size:0.75rem;
+	display: block;
+	color:#999;
+	line-height:2.1rem;
+}
+.navList_Box .navList li a.SJ{
+	background-image:url(../img/nav_sj.png);
+	background-size:1.725rem 0.425rem;
+	background-repeat: no-repeat;
+	background-position:right 0.9rem;
+	padding-right:1.725rem;
+
+}
+.navList_Box .two_level li{
+	border:0px solid #fff;
+}
+.navList_Box .one_level .two_level{
+	padding-left:0.5rem;
+	display:none;
+}
+.navList_Box .one_level .two_level .three_level{
+	padding-left:1rem;
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
